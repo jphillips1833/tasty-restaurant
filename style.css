@@ -2,6 +2,7 @@ a:hover {
   font-size: 34px;
 }
 body {
+  width: 100vw;
   background: linear-gradient(
     to right,
     #0f2027,
@@ -13,4 +14,17 @@ body {
   font-size: 40px;
   font-family: "Mohave", sans-serif;
   padding-top: 15px;
+}
+.card2 {
+  background-color: yellow;
+}
+.round-corners {
+  border: solid 1px;
+  border-radius: 10px;
+}
+.buttonsize {
+  width: 15vw;
+  margin-left: 45%;
+
+  margin-right: 45%;
 }
