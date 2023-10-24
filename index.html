@@ -20,10 +20,13 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-black text-white">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body
+    class="text-white"
+    style="background: linear-gradient(to right, #f12711, #f5af19)"
+  >
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Logo</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,73 +38,75 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav me-auto mb-2 p-3 align-items-end justify-content-end"
+          >
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Menu</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Promos</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
             </li>
           </ul>
-
-          <button class="btn btn-outline-success" type="submit">Search</button>
         </div>
       </div>
     </nav>
+
     <div class="container-lg">
       <div class="row justify-content-center align-items-center">
-        <div class="col">
-          <p class="p-5 bg-primary m-1">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            porro necessitatibus animi magnam, perspiciatis, odit eius
-            consequuntur neque minima expedita quaerat, ab saepe laboriosam
-            dolores fuga debitis ratione perferendis veniam!
+        <div class="col p-1">
+          <h1 class="p-1">
+            Grab a burger that combines the best dishes in the world with an
+            American classic
+          </h1>
+          <p class="m-1 p-1">
+            Our mission is to bring culture and community together through food.
           </p>
-          <div class="smalltext">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-              consequuntur sunt libero, assumenda vitae atque.
-            </p>
-          </div>
-          <div class="justify-content-center align-items-center">
-            <button type="button" class="btn btn-warning">Warning</button>
+          <div class="justify-content-center align-items-center p-1">
+            <button type="button" class="btn btn-warning">Order Now</button>
             <button type="button" class="btn btn-outline-warning">
-              Warning
+              Log In
             </button>
           </div>
         </div>
         <div class="col">
           <img
-            class="rounded-circle p-5 m-1"
+            class="rounded-circle p-5 m-1 image-big"
             alt="circle image"
-            src="https://placehold.co/400"
+            src="./images/burger1.jpg"
           />
         </div>
       </div>
     </div>
+
     <div class="container-lg">
-      <div class="row justify-content-center align-items-center">
-        <div class="col">
+      <div class="row justify-content-center align-items-center p-1">
+        <div class="col rounded-circle-container">
           <img
-            class="rounded-circle p-5 m-1"
+            class="rounded-circle m-1 p-5 image-big"
             alt="circle image"
-            src="https://placehold.co/400"
+            src="./images/burger3.jpg"
           />
         </div>
-        <div class="col">
-          <h3>About Us</h3>
-          <p class="bg-primary">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            porro necessitatibus animi magnam, perspiciatis, odit eius
-            consequuntur neque minima expedita quaerat, ab saepe laboriosam
-            dolores fuga debitis ratione perferendis veniam!
-          </p>
-          <button type="button" class="btn btn-warning">Warning</button>
+        <div class="col p-1">
+          <h3 class="p-1">About Us</h3>
+          <h1 class="m-1 p-1">Small town vibes with<br />Big city flavor.</h1>
+          <p class="p-1">Try Us Today.</p>
+          <div class="p-1">
+            <button type="button" class="btn btn-warning">Read More</button>
+          </div>
         </div>
       </div>
     </div>
@@ -112,7 +117,7 @@
         <div class="mx-auto">
           <div class="col">
             <h4 class="fw-light">Our Features</h4>
-            <h1 class="">Lorem ipsum dolor sit amet</h1>
+            <h1 class="">Best of the Best</h1>
           </div>
         </div>
       </div>
@@ -133,13 +138,12 @@
               <p class="card-number align-self-center text-center">01</p>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Fresh Ingredients</h5>
               <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                Local ingredients from local farms. We support our community.
               </p>
             </div>
-            <img src="https://placehold.co/400" alt="" class="img-fluid" />
+            <img src="./images/veg.jpg" alt="" class="fixed-image" />
           </div>
         </div>
         <div class="col-md-4">
@@ -155,13 +159,12 @@
               <p class="card-number align-self-center text-center">02</p>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
+              <h5 class="card-title">Award Winning Chefs</h5>
               <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+                Michelin Star Chefs from around the world.
               </p>
             </div>
-            <img src="https://placehold.co/400" alt="" class="img-fluid" />
+            <img src="./images/chef.jpg" alt="" class="fixed-image" />
           </div>
         </div>
         <div class="col-md-4">
@@ -177,13 +180,10 @@
               <p class="card-number align-self-center text-center">03</p>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
-              </p>
+              <h5 class="card-title">Full Service Bar</h5>
+              <p class="card-text">Best cocktail awardee 3 years in a row.</p>
             </div>
-            <img src="https://placehold.co/400" alt="" class="img-fluid" />
+            <img src="./images/cocktail.jpg" alt="" class="fixed-image" />
           </div>
         </div>
       </div>
@@ -191,21 +191,16 @@
     <!-- why choose us -->
     <div class="container-lg">
       <div class="row justify-content-center align-items-center">
-        <div class="col">
+        <div class="col center-section">
           <h3>Why Choose Us</h3>
-          <p class="bg-primary">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
-            porro necessitatibus animi magnam, perspiciatis, odit eius
-            consequuntur neque minima expedita quaerat, ab saepe laboriosam
-            dolores fuga debitis ratione perferendis veniam!
-          </p>
+          <h1>It's Simple... We Are The Best</h1>
           <button type="button" class="btn btn-warning">Warning</button>
         </div>
         <div class="col">
           <img
-            class="m-5 round-corners"
+            class="m-5 round-corners chooseUs"
             alt="reg image"
-            src="https://placehold.co/600x400"
+            src="./images/burger2.jpg"
           />
         </div>
       </div>
@@ -218,20 +213,17 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="row align-items-center">
+          <div class="row align-items-center justify-content-center">
             <div class="col-4">
               <img
                 class="rounded-circle p-5 m-1"
                 alt="circle image"
-                src="https://placehold.co/50"
+                src="./images/menu1.jpg"
               />
             </div>
             <div class="col-8">
-              <h3>About Us</h3>
-              <p class="bg-primary">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus
-              </p>
+              <h3>Item Name</h3>
+              <p class="">Description goes here</p>
             </div>
           </div>
         </div>
@@ -241,15 +233,12 @@
               <img
                 class="rounded-circle p-5 m-1"
                 alt="circle image"
-                src="https://placehold.co/50"
+                src="./images/menu2.jpg"
               />
             </div>
             <div class="col-8">
-              <h3>About Us</h3>
-              <p class="bg-primary">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus
-              </p>
+              <h3>Item Name</h3>
+              <p class="">Description goes here</p>
             </div>
           </div>
         </div>
@@ -259,15 +248,12 @@
               <img
                 class="rounded-circle p-5 m-1"
                 alt="circle image"
-                src="https://placehold.co/50"
+                src="./images/menu3.jpg"
               />
             </div>
             <div class="col-8">
-              <h3>About Us</h3>
-              <p class="bg-primary">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus
-              </p>
+              <h3>Item Name</h3>
+              <p class="">Description goes here</p>
             </div>
           </div>
         </div>
@@ -277,71 +263,156 @@
               <img
                 class="rounded-circle p-5 m-1"
                 alt="circle image"
-                src="https://placehold.co/50"
+                src="./images/menu4.jpg"
               />
             </div>
             <div class="col-8">
-              <h3>About Us</h3>
-              <p class="bg-primary">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus
-              </p>
+              <h3>Item Name</h3>
+              <p class="">Description goes here</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="row align-items-center">
-            <div class="col-4">
-              <img
-                class="rounded-circle p-5 m-1"
-                alt="circle image"
-                src="https://placehold.co/50"
-              />
-            </div>
-            <div class="col-8">
-              <h3>About Us</h3>
-              <p class="bg-primary">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus
-              </p>
-            </div>
+        <!-- Add more similar elements here -->
+      </div>
+    </div>
+
+    <!-- carousel -->
+    <div id="customCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="image-container">
+            <img
+              class="d-block w-50 h-50"
+              src="./images/cherryblossom.jpg"
+              alt="First slide"
+            />
+            <img
+              class="layer-image move-right"
+              src="./images/japanesefood.jpg"
+              alt="Layered Image"
+            />
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="row align-items-center">
-            <div class="col-4">
-              <img
-                class="rounded-circle p-5 m-1"
-                alt="circle image"
-                src="https://placehold.co/50"
-              />
-            </div>
-            <div class="col-8">
-              <h3>About Us</h3>
-              <p class="bg-primary">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus
-              </p>
-            </div>
+        <div class="carousel-item">
+          <div class="image-container">
+            <img
+              class="d-block w-50 h-50"
+              src="./images/mexico.jpg"
+              alt="Second slide"
+            />
+            <img
+              class="layer-image move-right"
+              src="./images/mexicanfood.jpg"
+              alt="Layered Image"
+            />
           </div>
+        </div>
+        <!-- Add more carousel items as needed -->
+      </div>
+      <!-- Move the controls below the carousel -->
+      <div class="text-center">
+        <a
+          class="carousel-control-prev"
+          href="#customCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#customCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- article section -->
+    <section class="container mt-5">
+      <div class="row text-center">
+        <div class="col">
+          <h3>Our Blog</h3>
+          <h1>Latest Article</h1>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/article1.jpg"
+              class="card-img-top resize"
+              alt="Image 1"
+            />
+          </div>
+          <h5 class="card-title">Article Title 1</h5>
+          <p class="card-text">Date 1</p>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/article2.jpg"
+              class="card-img-top resize"
+              alt="Image 2"
+            />
+          </div>
+          <h5 class="card-title">Article Title 2</h5>
+          <p class="card-text">Date 2</p>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./images/article3.jpg"
+              class="card-img-top resize"
+              alt="Image 3"
+            />
+          </div>
+          <h5 class="card-title">Article Title 3</h5>
+          <p class="card-text">Date 3</p>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-black mt-5" id="footer">
+      <div class="row">
+        <div class="col">
+          <h3>Delectable Eats</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptatum, quibusdam, voluptates, quia quae voluptate quos
+            voluptatibus quod quidem doloribus quas. Quisquam voluptatum,
+            quibusdam, voluptates, quia quae voluptate quos voluptatibus quod
+            quidem doloribus quas.
+          </p>
         </div>
         <div class="col">
-          <div class="row align-items-center">
-            <button type="button" class="btn btn-warning buttonsize">
-              Warning
-            </button>
-          </div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Menu</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>LinkedIn</li>
+          </ul>
         </div>
       </div>
-    </div>
-    <!-- carousel -->
-    <div class="container">
-      <div
-        class="carousel-container row justify-content-center align-items-center align-content-center text-center"
-      >
-        <p>hello</p>
-      </div>
-    </div>
+    </footer>
+
+    <!-- JavaScript -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -354,7 +425,7 @@
     ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzXW"
       crossorigin="anonymous"
     ></script>
   </body>

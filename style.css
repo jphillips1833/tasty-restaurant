@@ -5,9 +5,8 @@ body {
   width: 100vw;
   background: linear-gradient(
     to right,
-    #0f2027,
-    #203a43,
-    #2c5364
+    #f12711,
+    #f5af19
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .card-number {
@@ -31,4 +30,54 @@ body {
 .carousel-container {
   margin: 10%;
   background-color: tomato;
+}
+
+.fixed-image {
+  height: 250px; /* Set the height you desire */
+  object-fit: cover; /* This property ensures the image covers the entire container */
+}
+
+/* CSS to center the text vertically and horizontally */
+.row.align-items-center > .col-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* CSS to make the images the same size */
+.rounded-circle {
+  width: 100%; /* Ensure the image takes the full width of its container */
+
+  height: auto; /* Maintain the aspect ratio */
+}
+
+#customCarousel {
+  width: 80vw; /* Set the width of the carousel as per your design */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+.carousel-container {
+  position: relative;
+}
+.chooseUs {
+  height: 35vh;
+}
+.center-section {
+  padding: 15%;
+}
+.layer-image {
+  position: absolute;
+  bottom: 0; /* Adjust the positioning as needed */
+  right: 0; /* Adjust the positioning as needed */
+  width: 50%; /* Adjust the width for the desired overlap */
+  height: 100%; /* Make sure the height matches the container */
+}
+#footer {
+  width: 100vw;
+  height: 30vh;
+}
+.resize {
+  height: 300px;
+}
+.move-right {
+  transform: translate(-10%, 20%);
 }
