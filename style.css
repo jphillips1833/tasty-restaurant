@@ -28,3 +28,7 @@ body {
 
   margin-right: 45%;
 }
+.carousel-container {
+  margin: 10%;
+  background-color: tomato;
+}
